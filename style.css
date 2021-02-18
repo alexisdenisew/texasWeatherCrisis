@@ -59,6 +59,8 @@ body {
   }
   td, tr{
     font-family: 'Fjalla One', sans-serif;
+    margin-left: 5%;
+    margin-right: 5%;
   }
 }
 
