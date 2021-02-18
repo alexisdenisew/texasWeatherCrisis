@@ -76,7 +76,7 @@ h2{
   font-family: 'Fjalla One', sans-serif;
 }
 
-p, #zipList, #zipCode, li{
+p, #zipList, #zipCode, li, td{
   font-family: 'Fjalla One', sans-serif; 
   margin-left: 5%;
     margin-right: 5%;
