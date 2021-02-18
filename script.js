@@ -18,26 +18,26 @@ function zippy() {
   var reg6 = [76706, 78701, 76504, 76541, 78654, 77901, 77901, 78644, 78704, 76567, 76701, 78118, 78006, 78624, 78155, 76522, 76661, 76645, 76692, 76648, 76055, 77983, 78205, 76543, 76513, 76502, 76513, 76548, 76571, 76571, 76504, 76502, 76502, 76504, 76571, 78643, 78639, 76501, 76528, 78681, 78652, 78759, 78737, 78750, 78705, 78757, 78617, 78705, 78731, 78745, 76661, 78620, 78676, 78006, 78006, 78028, 78025, 78028, 78017, 76665];
   var y = document.getElementById('zipList');
   if (reg2.includes(zip)== true || zip == 2){
-    y.innerHTML = "reg 2";
+    
     var spot = 2;
   } else if (reg3.includes(zip)== true || zip == 3){
-    y.innerHTML = "reg 3";
+   
     var spot = 3;
   } else if (reg4.includes(zip)== true || zip == 4){
-    y.innerHTML = "reg 4";
+   
     var spot = 4;
   } else if (reg5.includes(zip)== true || zip == 5){
-    y.innerHTML = "reg 5";
+   
     var spot = 5;
   } else if (reg6.includes(zip)== true || zip == 6){
-    y.innerHTML = "reg 6";
+    
     var spot = 6;
   } else {
     if (71000 < zip && zip < 76000 || zip == 1){
-      y.innerHTML = "reg 1a";
+     
       var spot = 0;
     } else if (76000 < zip && zip < 77000){
-      y.innerHTML = "reg 1b";
+     
       var spot = 1;
     } else{
       y.innerHTML = "You either did not enter a valid zip code/ region, or your zip code/ region is not supported.";
