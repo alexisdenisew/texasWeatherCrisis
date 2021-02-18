@@ -1,0 +1,1941 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Texas Weather Crisis</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+
+    <div id = "conts">
+      <h1>Texas Weather Crisis</h1>
+
+      <p id = "txt1">CALL 211 TO FIND YOUR NEAREST WARMING SHELTER CALL 311 CAPMETRO or APD can pick you up (https://www.211texas.org/) AND/OR USE THE RESOURCES BELOW</p>
+
+      <p id = "txt2">*Most information credit goes to the creator of this <a href= "https://docs.google.com/document/d/11GplfTTLRv6yV-2AC6GFw5Gy4izlPdGSay1HdRQcRjQ/edit">Google Doc</a>.</p>
+      <br>
+
+
+
+
+      <button onclick="div1()">Warming Centers</button>
+
+      <div id="div1" class = "divStyle">
+        <h2>Warming Centers</h2>
+        <input type="text" id="zipCode" placeholder="Zip Code or Region Nbr"></input>
+        <button id = "subButton" onclick="zippy()">Submit</button>
+        <br><br>
+        <div id = "zipList">More warming centers can be found <a href = "https://tdem.texas.gov/warm/" target = "_blank" >here</a>.</div>
+
+        <!-- Done -->
+        <div id = "r1"> 
+          <!-- this includes 71-75 -->
+          <table class = "tableStyle">
+            <tbody>
+              <tr>
+                      <td>Region</td>
+                      <td>County</td>
+                      <td>Address</td>
+                      <td>Name</td>
+                </tr>
+                <tr>
+                      <td>Region 1a</td>
+                      <td>Dallas</td>
+                      <td>650 S Griffin St.</td>
+                      <td>Kay Bailey Convention</td>
+                </tr>
+                <tr>
+                      <td>Region 1a</td>
+                      <td>Anderson</td>
+                      <td>919 South Magnolia Street</td>
+                      <td>Hope Station</td>
+                </tr>
+                <tr>
+                      <td>Region 1a</td>
+                      <td>Bowie</td>
+                      <td>400 E 4th St.</td>
+                      <td>Salvation Army of Texarkana</td>
+                </tr>
+                <tr>
+                      <td>Region 1a</td>
+                      <td>Bowie</td>
+                      <td>620 W. 4th Street</td>
+                      <td>Mission Texarkana</td>
+                </tr>
+                <tr>
+                      <td>Region 1a</td>
+                      <td>Collin</td>
+                      <td>3528 14th St</td>
+                      <td>Salvation Army</td>
+                </tr>
+                <tr>
+                      <td>Region 1a</td>
+                      <td>Collin</td>
+                      <td>600 Wilson Creek Pkwy</td>
+                      <td>Salvation Army</td>
+                </tr>
+                <tr>
+                      <td>Region 1a</td>
+                      <td>Collin</td>
+                      <td>250 W. First Street</td>
+                      <td>Prosper Library</td>
+                </tr>
+                <tr>
+                      <td>Region 1a</td>
+                      <td>Collin</td>
+                      <td>124 S. Washington Street</td>
+                      <td>First Baptist Church of Farmersville</td>
+                </tr>
+                <tr>
+                  <td>Region 1a</td>
+                  <td>Collin</td>	
+                  <td>516 Hilltop Lane</td>	
+                  <td>Burnett Junior High School</td>
+                </tr>
+                <tr>
+                  <td>Region 1a</td>
+                  <td>Collin</td>	
+                  <td>1107 W Rosamond Pkwy</td>	
+                  <td>Anna High School</td>
+                </tr>
+                <tr>
+                  <td>Region 1a</td>
+                  <td>Collin</td>	
+                  <td>200 N Ballard Ave	First</td> 
+                  <td>Baptist Wylie Event Center</td>
+                </tr>
+                <tr>
+                  <td>Region 1a</td>
+                  <td>Dallas</td>	
+                  <td>650 S. Griffin</td>	
+                  <td>Kay Bailey Convention (City & Our Calling)</td>
+                </tr>
+                <tr>
+                  <td>Region 1a</td>
+                  <td>Navarro</td>	
+                  <td>100 N 12th St</td>	
+                  <td>City of Corsicana Library</td>
+                </tr>
+                <tr>
+                  <td>Region 1a</td>
+                  <td>Smith</td>	
+                  <td>633 N. Broadway Ave</td>	
+                  <td>Salvation Army of Tyler</td>
+                </tr>
+                <tr>
+                  <td>Region 1a</td>
+                  <td>Dallas</td>	
+                  <td>435 W. Ave D</td>	
+                  <td>Salvation Army (GLOWS)</td>
+                </tr>
+                <tr>
+                  <td>Region 1a</td>
+                  <td>Dallas</td>	
+                  <td>2335 N Josey Lane</td>	
+                  <td>Newman Smith High School</td>
+                </tr>
+                <tr>
+                  <td>Region 1a</td>
+                  <td>Dallas</td>	
+                  <td>2750 Graham Street</td>	
+                  <td>Tony Shotwell Life Center</td>
+                </tr>
+                <tr>
+                  <td>Region 1a</td>
+                  <td>Dallas</td>	
+                  <td>2975 Esplanade</td>	
+                  <td>Summit Recreation Center</td>
+                </tr>
+                <tr>
+                  <td>Region 1a</td>
+                  <td>Dallas</td>	
+                  <td>3113 S Carrier Pkwy</td>	
+                  <td>Ruth Jackson Center</td>
+                  </tr>
+                <tr>
+                  <td>Region 1a</td>
+                  <td>Dallas</td>	
+                  <td>234 Parkway Blvd</td>	
+                  <td>The CORE</td>
+                </tr>
+                <tr>
+                  <td>Region 1a</td>
+                  <td>Delta</td>	
+                  <td>221 E. Bonham Ave</td>	
+                  <td>Delta County Civic Center</td>
+                </tr>
+                <tr>
+                  <td>Region 1a</td>
+                  <td>Denton</td>	
+                  <td>1500 E First Street</td>	
+                  <td>Central Fire Station and EOC</td>
+                </tr>
+                <tr>
+                  <td>Region 1a</td>
+                  <td>Denton</td>	
+                  <td>1140 S. Teel Pkwy</td>	
+                  <td>Fire Station #2</td>
+                </tr>
+                <tr>
+                  <td>Region 1a</td>
+                  <td>Denton</td>	
+                  <td>801 Safety Way</td>	
+                  <td>Police Dept</td>
+                </tr>
+                <tr>
+                  <td>Region 1a</td>
+                  <td>Denton</td>	
+                  <td>250 W. First St</td>	
+                  <td>Prosper Library and Town Hall</td>
+                </tr>
+                <tr>
+                  <td>Region 1a</td>
+                  <td>Denton</td>	
+                  <td>276 E. Hundley Drive</td>	
+                  <td>Lake Shore Baptist Church</td>
+                </tr>
+                <tr>
+                  <td>Region 1a</td>
+                  <td>Dallas</td>	
+                  <td>2555 Esters Rd</td>	
+                  <td>Islamic Center of Irving</td>
+                </tr>
+                <tr>
+                  <td>Region 1a</td>
+                  <td>Dallas</td>	
+                  <td>901 Senter Road</td>	
+                  <td>Senter Park Recreation Center</td>
+                </tr>
+                <tr>
+                  <td>Region 1a</td>
+                  <td>Grayson</td>	
+                  <td>427 W. Woodard</td>	
+                  <td>St.Lukes Episcopal Church</td>
+                </tr>
+                <tr>
+                  <td>Region 1a</td>
+                  <td>Grayson</td>	
+                  <td>405 N Rusk Street</td>	
+                  <td>Sherman Municipal Building</td>
+                </tr>
+                <tr>
+                  <td>Region 1a</td>
+                  <td>Grayson</td>	
+                  <td>201 Britton Street</td>	
+                  <td>City Hall Community Center</td>
+                </tr>
+                <tr>
+                  <td>Region 1a</td>
+                  <td>Grayson</td>	
+                  <td>262 N Preston Avenue</td>	
+                  <td>Van Alstyne Community Center</td>
+                </tr>
+                <tr>
+                  <td>Region 1a</td>
+                  <td>Grayson</td>	
+                  <td>498 Bethel Cannon Road</td>	
+                  <td>Kings Trail Cowboy Church</td>
+                </tr>
+                <tr>
+                  <td>Region 1a</td>
+                  <td>Ellis</td>	
+                  <td>200 Live Oaks St</td>	
+                  <td>Red Oak Lindsey Park</td>
+                </tr>
+                <tr>
+                  <td>Region 1a</td>
+                  <td>Ellis</td>	
+                  <td>450 E US-287</td>	
+                  <td>First Baptist Church of Waxahachie</td>
+                </tr>
+                <tr>
+                  <td>Region 1a</td>
+                  <td>Gregg</td>	
+                  <td>3117 W. Marshall Avenue	Highway 80</td> 
+                  <td>Rescue Mission (Men's Shelter)</td>
+                </tr>
+                <tr>
+                  <td>Region 1a</td>
+                  <td>Harrison</td>	
+                  <td>601 S. Grove Street</td>	
+                  <td>Community room at Fire Station #1</td>
+                </tr>
+                <tr>
+                  <td>Region 1a</td>
+                  <td>Henderson</td>	
+                  <td>9661 E. Bankhead Street</td>	
+                  <td>Murchison School</td>
+                </tr>
+                <tr>
+                  <td>Region 1a</td>
+                  <td>Henderson</td>	
+                  <td>4470 TX - 274</td>	
+                  <td>Lakeside Baptist Church</td>
+                </tr>
+                <tr>
+                  <td>Region 1a</td>
+                  <td>Hopkins</td>	
+                  <td>1200 Houston Street</td>	
+                  <td>Hopkins County Civic Center</td>
+                </tr>
+                <tr>
+                  <td>Region 1a</td>
+                  <td>Lamar</td>	
+                  <td>1400 Bonham Street</td>	
+                  <td>The House (Paris Church of God)</td>
+                </tr>
+                <tr>
+                  <td>Region 1a</td>
+                  <td>Lamar</td>	
+                  <td>2515 Bonham Street</td>	
+                  <td>City Square Paris</td>
+                </tr>
+                <tr>
+                  <td>Region 1a</td>
+                  <td>Lamar</td>	
+                  <td>450 4th St. SW</td>	
+                  <td>Horizon House</td>
+                </tr>
+                <tr>
+                  <td>Region 1a</td>
+                  <td>Lamar</td>	
+                  <td>3535 Lamar Ave</td>	
+                  <td>Lamar Avenue Church of Christ</td>
+                </tr>
+                <tr>
+                  <td>Region 1a</td>
+                  <td>Navarro</td>	
+                  <td>510 W Collin St</td>	
+                  <td>First Baptist in Corsicana</td>
+                </tr>
+                <tr>
+                  <td>Region 1a</td>
+                  <td>Smith</td>	
+                  <td>16759 FM14</td>	
+                  <td>City fire station</td>
+                </tr>
+                <tr>
+                  <td>Region 1a</td>
+                  <td>Red River</td>	
+                  <td>201 2nd Street NW</td>	
+                  <td>Bogata Community Center</td>
+                </tr>
+                <tr>
+                  <td>Region 1a</td>
+                  <td>Rockwall</td>	
+                  <td>950 T L Townsend Dr</td>	
+                  <td>Rockwall County Sheriff's Office</td>
+                </tr>
+                <tr>
+                  <td>Region 1a</td>
+                  <td>Rockwall</td>	
+                  <td>108 E Washington Street</td>	
+                  <td>The Center At Rockwall City Place</td>
+                </tr>
+                <tr>
+                  <td>Region 1a</td>
+                  <td>Rockwall</td>	
+                  <td>1371 W Farm to Market Rd 550</td>	
+                  <td>McLendon-Chisholm: City Hall</td>
+                </tr>
+                <tr>
+                  <td>Region 1a</td>
+                  <td>Rockwall</td>	
+                  <td>200 Laurence Dr</td>	
+                  <td>Heath City Hall</td>
+                </tr>
+                <tr>
+                  <td>Region 1a</td>
+                  <td>Rockwall</td>	
+                  <td>100 W Main St, Royse City</td>	
+                  <td>Royse City Police Department</td>
+                </tr>
+                <tr>
+                  <td>Region 1a</td>
+                  <td>Smith</td>	
+                  <td>107 W Longview St</td>	
+                  <td>Arp</td>
+                </tr>
+                <tr>
+                  <td>Region 1a</td>
+                  <td>Smith</td>	
+                  <td>16759 FM14</td>	
+                  <td>City fire station</td>
+                </tr>
+                <tr>
+                  <td>Region 1a</td>
+                  <td>Smith</td>	
+                  <td>310 W. Cumberland Rd</td>	
+                  <td>Dayspring United Methodist Church</td>
+                </tr>
+                <tr>
+                  <td>Region 1a</td>
+                  <td>Smith</td>	
+                  <td>4000 Frankston Hwy.</td>	
+                  <td>St. Louis Baptist Church</td>
+                </tr>
+                <tr>
+                  <td>Region 1a</td>
+                  <td>Smith</td>	
+                  <td>3215 Old Jacksonville Hwy.</td>	
+                  <td>Grace Community Church</td>
+                </tr>
+            </tbody>
+          </table>
+
+        </div>
+
+        <!-- Done -->
+        <div id = "r2" >
+          <table class = "tableStyle"> 
+            <tbody>
+              <tr>
+                    <td>Region</td>
+                    <td>County</td>
+                    <td>Address</td>
+                    <td>Name</td>
+              </tr>
+              <tr>
+                <td>	Region 1b	</td> 
+                <td>	Cooke	</td> 
+                <td>	415 E. California Street	</td> 
+                <td>	St. Paul's Episcopal Church		</td>
+              </tr>
+              <tr>
+                <td>	Region 1b	</td> 
+                <td>	Cooke	</td> 
+                <td>	421 Main	</td> 
+                <td>	Muenster Fire Dept		</td>
+              </tr>
+              <tr>
+                <td>	Region 1b	</td> 
+                <td>	Cooke	</td> 
+                <td>	2201 S. I-35	</td> 
+                <td>	Gainesville High School		</td>
+              </tr>
+              <tr>
+                <td>	Region 1b	</td> 
+                <td>	Cooke	</td> 
+                <td>	311 S. Weaver Street	</td> 
+                <td>	Gainesville Civic Center		</td>
+              </tr>
+              <tr>
+                <td>	Region 1b	</td> 
+                <td>	Cooke	</td> 
+                <td>	1525 W California St	</td> 
+                <td>	North Central Texas College Field House		</td>
+              </tr>
+              <tr>
+                <td>	Region 1b	</td> 
+                <td>	Cooke	</td> 
+                <td>	2501 N. Weaver St.	</td> 
+                <td>	Noah’s Ark Animal Shelter		</td>
+              </tr>
+              <tr>
+                <td>	Region 1b	</td> 
+                <td>	Denton	</td> 
+                <td>	7801 Stemmons Freeway	</td> 
+                <td>	Global Sphere Center		</td>
+              </tr>
+              <tr>
+                <td>	Region 1b	</td> 
+                <td>	Denton	</td> 
+                <td>	110 Mockingbird Lane	</td> 
+                <td>	City Fire Station #2		</td>
+              </tr>
+              <tr>
+                <td>	Region 1b	</td> 
+                <td>	Denton	</td> 
+                <td>	2110 E. Sherman Drive	</td> 
+                <td>	City Fire Station #4		</td>
+              </tr>
+              <tr>
+                <td>	Region 1b	</td> 
+                <td>	Denton	</td> 
+                <td>	2230 W. Windsor Drive	</td> 
+                <td>	City Fire Station #5		</td>
+              </tr>
+              <tr>
+                <td>	Region 1b	</td> 
+                <td>	Denton	</td> 
+                <td>	3232 Teasley Lane	</td> 
+                <td>	City Fire Station #6		</td>
+              </tr>
+              <tr>
+                <td>	Region 1b	</td> 
+                <td>	Denton	</td> 
+                <td>	4201 Vintage Parkway	</td> 
+                <td>	City Fire Station #7		</td>
+              </tr>
+              <tr>
+                <td>	Region 1b	</td> 
+                <td>	Denton	</td> 
+                <td>	1300 Wilson Street	</td> 
+                <td>	Martin Luther King Jr. Recreation Center		</td>
+              </tr>
+              <tr>
+                <td>	Region 1b	</td> 
+                <td>	Denton	</td> 
+                <td>	1508 E McKinney St	</td> 
+                <td>	Salvation Army of Denton		</td>
+              </tr>
+              <tr>
+                <td>	Region 1b	</td> 
+                <td>	Denton	</td> 
+                <td>	2001 W. Windsor Dr.	</td> 
+                <td>	North Lakes Recreation Center		</td>
+              </tr>
+              <tr>
+                <td>	Region 1b	</td> 
+                <td>	Denton	</td> 
+                <td>	321 E. McKinney Street	</td> 
+                <td>	Denton Civic Center		</td>
+              </tr>
+              <tr>
+                <td>	Region 1b	</td> 
+                <td>	Denton	</td> 
+                <td>	300 S. Woodrow Ln.	</td> 
+                <td>	The Junction of Denton County - Monsignor King Outreach Center (shelter)		</td>
+              </tr>
+              <tr>
+                <td>	Region 1b	</td> 
+                <td>	Denton	</td> 
+                <td>	300 Oak St. Ste. 100	</td> 
+                <td>	The Junction of Denton County - Our Daily Bread		</td>
+              </tr>
+              <tr>
+                <td>	Region 1b	</td> 
+                <td>	Denton	</td> 
+                <td>	397 S Stemmons Freeway	</td>
+                <td>	Lake Land Baptist Church		</td>
+              </tr>
+              <tr>
+                <td>	Region 1b	</td> 
+                <td>	Ellis	</td> 
+                <td>	1 Community Circle	</td> 
+                <td>	Midlothian Conference Center located		</td>
+              </tr>
+              <tr>
+                <td>	Region 1b	</td> 
+                <td>	Johnson	</td> 
+                <td>	301 S. Dobson	</td> 
+                <td>	Open Door Church		</td>
+              </tr>
+              <tr>
+                <td>	Region 1b	</td> 
+                <td>	Tarrant	</td> 
+                <td>	4301 NE 28th St	</td> 
+                <td>	Christian Center		</td>
+              </tr>
+              <tr>
+                <td>	Region 1b	</td> 
+                <td>	Tarrant	</td> 
+                <td>	5049 Trail Lake Drive	</td> 
+                <td>	Upbound North Texas		</td>
+              </tr>
+              <tr>
+                <td>	Region 1b	</td> 
+                <td>	Tarrant	</td> 
+                <td>	100 Main Street	</td> 
+                <td>	Colleyville City Hall		</td>
+              </tr>
+              <tr>
+                <td>	Region 1b	</td> 
+                <td>	Tarrant	</td> 
+                <td>	1175 Municipal Way	</td> 
+                <td>	The REC of Grapevine		</td>
+              </tr>
+              <tr>
+                <td>	Region 1b	</td>
+                <td>	Tarrant	</td> 
+                <td>	100 E. Dove Road	</td> 
+                <td>	DPS North facility		</td>
+              </tr>
+              <tr>
+                <td>	Region 1b	</td> 
+                <td>	Tarrant	</td> 
+                <td>	930 Winscott Road	</td> 
+                <td>	The Church at Benbrook		</td>
+              </tr>
+              <tr>
+                <td>	Region 1b	</td> 
+                <td>	Wise	</td> 
+                <td>	2010 US-380	</td> 
+                <td>	Decatur Civic Center		</td>
+              </tr>
+              <tr>
+                <td>	Region 1b	</td> 
+                <td>	Tarrant	</td> 
+                <td>	620 Wisteria Lane	</td> 
+                <td>	Mansfield Service Center		</td>
+              </tr>
+              <tr>
+                <td>	Region 1b	</td> 
+                <td>	Parker	</td> 
+                <td>	1000 Cinema Dr	</td> 
+                <td>	High Ridge Church		</td>
+              </tr>
+              <tr>
+                <td>	Region 1b	</td> 
+                <td>	Johnson	</td> 
+                <td>	1501 W. Henderson St	</td> 
+                <td>	Cleburne Conference Center		</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <!-- Done, outliers: 75901 75901 78368 75966 75901 75862 75862 75961-->
+        <div id = "r3">
+          <table class = "tableStyle"> 
+            <tbody>
+              <tr>
+                    <td>Region</td>
+                    <td>County</td>
+                    <td>Address</td>
+                    <td>Name</td>
+              </tr>
+              <tr>
+                <td>	Region 2	</td> 
+                <td>	Orange	</td> 
+                <td>	1950 MLK Drive	</td> 
+                <td>	Salvation Army	</td>
+              </tr>
+              <tr>
+                <td>	Region 2	</td> 
+                <td>	Angelina	</td> 
+                <td>	323 Moody St.	</td> 
+                <td>	Godtel	</td>
+              </tr>
+              <tr>
+                <td>	Region 2	</td> 
+                <td>	Angelina	</td> 
+                <td>	412 S. 3rd. St.	</td> 
+                <td>	The Salvation Army	</td>
+              </tr>
+              <tr>
+                <td>	Region 2	</td> 
+                <td>	Austin	</td> 
+                <td>	1310 US-90	</td> 
+                <td>	Knights of Columbus	</td>
+              </tr>
+              <tr>
+                <td>	Region 2	</td> 
+                <td>	Galveston	</td> 
+                <td>	1001 E League City Pkwy	</td> 
+                <td>	Hometown Heroe's Park	</td>
+              </tr>
+              <tr>
+                <td>	Region 2	</td> 
+                <td>	Harris	</td> 
+                <td>	6006 N. Freeway	</td> 
+                <td>	Gallery Furniture _ Mattress Mack	</td>
+              </tr>
+              <tr>
+                <td>	Region 2	</td> 
+                <td>	Harris	</td> 
+                <td>	4141 Bailey Rd.	</td> 
+                <td>	Recreation Center	</td>
+              </tr>
+              <tr>
+                <td>	Region 2	</td> 
+                <td>	Harris	</td> 
+                <td>	16605 Air Center Blvd.	</td> 
+                <td>	National Association of Christian Churches	</td>
+              </tr>
+              <tr>
+                <td>	Region 2	</td> 
+                <td>	Harris	</td> 
+                <td>	3700 Southwest Fwy	</td> 
+                <td>	Lakewood Church	</td>
+              </tr>
+              <tr>
+                <td>	Region 2	</td> 
+                <td>	Harris	</td> 
+                <td>	2407 Market St.	</td> 
+                <td>	Baytown Community Center	</td>
+              </tr>
+              <tr>
+                <td>	Region 2	</td> 
+                <td>	Harris	</td> 
+                <td>	4100 S. Main St.,	</td> 
+                <td>	South Main Baptist	</td>
+              </tr>
+              <tr>
+                <td>	Region 2	</td> 
+                <td>	Harris	</td> 
+                <td>	2801 Conti St.,	</td> 
+                <td>	Plesant Grove Missionary Baptist	</td>
+              </tr>
+              <tr>
+                <td>	Region 2	</td> 
+                <td>	Harris	</td> 
+                <td>	150 N. Chenevert St	</td> 
+                <td>	Houston Staff - Sobering Center	</td>
+              </tr>
+              <tr>
+                <td>	Region 2	</td> 
+                <td>	Harris	</td> 
+                <td>	9601 W. Fairmont Pkwy.	</td> 
+                <td>	First United Methodist	</td>
+              </tr>
+              <tr>
+                <td>	Region 2	</td> 
+                <td>	Harris	</td> 
+                <td>	110 Sabine St.	</td> 
+                <td>	Fonde Center	</td>
+              </tr>
+              <tr>
+                <td>	Region 2	</td> 
+                <td>	Harris	</td> 
+                <td>	744 W. FM 1960	</td> 
+                <td>	Hope Center	</td>
+              </tr>
+              <tr>
+                <td>	Region 2	</td> 
+                <td>	Harris	</td> 
+                <td>	1711 W. FM 1960	</td> 
+                <td>	Spring United Methodist Church	</td>
+              </tr>
+              <tr>
+                <td>	Region 2	</td> 
+                <td>	Harris	</td> 
+                <td>	8350 Jones Rd.	</td> 
+                <td>	The Foundary UMC	</td>
+              </tr>
+              <tr>
+                <td>	Region 2	</td> 
+                <td>	Harris	</td> 
+                <td>	8350 Hwy 6 N.	</td> 
+                <td>	Copper Field Church	</td>
+              </tr>
+              <tr>
+                <td>	Region 2	</td> 
+                <td>	Harris	</td> 
+                <td>	1001 Avenida De Las Americas	</td> 
+                <td>	GRB	</td>
+              </tr>
+              <tr>
+                <td>	Region 2	</td> 
+                <td>	Brazoria	</td> 
+                <td>	4085 FM 528 Rd.	</td> 
+                <td>	Legacy Church	</td>
+              </tr>
+              <tr>
+                <td>	Region 2	</td> 
+                <td>	Brazoria	</td> 
+                <td>	1720 W. Sealy St.	</td> 
+                <td>	One Church	</td>
+              </tr>
+              <tr>
+                <td>	Region 2	</td> 
+                <td>	Brazoria	</td> 
+                <td>	803 N. Front St.	</td> 
+                <td>	The Salvation Army	</td>
+              </tr>
+              <tr>
+                <td>	Region 2	</td> 
+                <td>	Brazos	</td> 
+                <td>	2505 S College Ave.	</td> 
+                <td>	Twin City Mission	</td>
+              </tr>
+              <tr>
+                <td>	Region 2	</td> 
+                <td>	Chambers	</td> 
+                <td>	3406 Wisconsin St.	</td> 
+                <td>	Bay Area Homeless Shelter	</td>
+              </tr>
+              <tr>
+                <td>	Region 2	</td> 
+                <td>	Walker	</td> 
+                <td>	455 TX-75	</td> 
+                <td>	City of Huntsville - Walker Co. Storm Shelter	</td>
+              </tr>
+              <tr>
+                <td>	Region 2	</td> 
+                <td>	Brazoria	</td> 
+                <td>	1720 W. Sealy St.	</td> 
+                <td>	One Church	</td>
+              </tr>
+              <tr>
+                <td>	Region 2	</td> 
+                <td>	Newton	</td> 
+                <td>	213 Court St.	</td> 
+                <td>	Howard Civic Center	</td>
+              </tr>
+              <tr>
+                <td>	Region 2	</td> 
+                <td>	Angelina	</td> 
+                <td>	601 N 2nd St, Lufkin	</td> 
+                <td>	Pitser Garrison Civic Center	</td>
+              </tr>
+              <tr>
+                <td>	Region 2	</td> 
+                <td>	Harris	</td> 
+                <td>	2020 Hermann Dr	</td> 
+                <td>	Judson Robinson MSS	</td>
+              </tr>
+              <tr>
+                <td>	Region 2	</td> 
+                <td>	Harris	</td> 
+                <td>	5202 Griggs Rd,	</td> 
+                <td>	Houston Texans YMCA	</td>
+              </tr>
+              <tr>
+                <td>	Region 2	</td> 
+                <td>	Harris	</td> 
+                <td>	1234 W. 34	</td> 
+                <td>	Foster Y - Garden Oaks/Acres homes	</td>
+              </tr>
+              <tr>
+                <td>	Region 2	</td> 
+                <td>	Harris	</td> 
+                <td>	1001 Avenida De Las Americas	</td> 
+                <td>	George R. Brown Convention Center	</td>
+              </tr>
+              <tr>
+                <td>	Region 2	</td> 
+                <td>	Galveston	</td> 
+                <td>	3308 Avenue O 1/2	</td> 
+                <td>	Galveston Central Church	</td>
+              </tr>
+              <tr>
+                <td>	Region 2	</td> 
+                <td>	Galveston	</td> 
+                <td>	2113 6th St	</td> 
+                <td>	Bolivar Peninsula Warming Center	</td>
+              </tr>
+              <tr>
+                <td>	Region 2	</td> 
+                <td>	Galveston	</td> 
+                <td>	2222 28th St	</td> 
+                <td>	City of Galveston - McGuire Dent Community Center	</td>
+              </tr>
+              <tr>
+                <td>	Region 2	</td> 
+                <td>	Galveston	</td> 
+                <td>	397 Duroux rd.	</td> 
+                <td>	City of La Marque - High School	</td>
+              </tr>
+              <tr>
+                <td>	Region 2	</td> 
+                <td>	Galveston	</td> 
+                <td>	21402 11th st	</td> 
+                <td>	Heritage Crossing (Senior Community)	</td>
+              </tr>
+              <tr>
+                <td>	Region 2	</td> 
+                <td>	Trinity	</td> 
+                <td>	300 W Caroline St	</td>
+                <td>	Trinity VFW	</td>
+              </tr>
+              <tr>
+                <td>	Region 2	</td> 
+                <td>	Trinity	</td> 
+                <td>	204 Pegoda Rd	</td> 
+                <td>	Burning Hope Baptist Church	</td>
+              </tr>
+              <tr>
+                <td>	Region 2	</td> 
+                <td>	Nacogdoches	</td> 
+                <td>	1112 North St	</td> 
+                <td>	Nacodoches Rec Center	</td>
+              </tr>
+              <tr>
+                <td>	Region 2	</td> 
+                <td>	Hardin	</td> 
+                <td>	100 S. LHS Dr	</td> 
+                <td>	Lumberton PAC Dome	</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <!-- Done -->
+        <div id = "r4">
+          <table class = "tableStyle"> 
+            <tbody>
+              <tr>
+                    <td>Region</td>
+                    <td>County</td>
+                    <td>Address</td>
+                    <td>Name</td>
+              </tr>
+              <tr>
+                <td>	Region 3	</td> 
+                <td>	Hildago	</td> 
+                <td>	1600 North 23rd St	</td> 
+                <td>	Salvation Army	</td>
+              </tr>
+              <tr>
+                <td>	Region 3	</td> 
+                <td>	Hildago	</td> 
+                <td>	1200 E Kelly Ave	</td> 
+                <td>	Vangauard Academy	</td>
+              </tr>
+              <tr>
+                <td>	Region 3	</td> 
+                <td>	Hildago	</td> 
+                <td>	721 N. Bryan Rd	</td> 
+                <td>	Mission Rec Building	</td>
+              </tr>
+              <tr>
+                <td>	Region 3	</td> 
+                <td>	Hildago	</td> 
+                <td>	600 S Kansas Ave	</td> 
+                <td>	First Baptist Church - TT	</td>
+              </tr>
+              <tr>
+                <td>	Region 3	</td> 
+                <td>	Hildago	</td> 
+                <td>	1202 N Vermont	</td> 
+                <td>	Safe Room and Community Recreation Dome	</td>
+              </tr>
+              <tr>
+                <td>	Region 3	</td> 
+                <td>	Cameron	</td> 
+                <td>	656 N Minnesota Ave	</td> 
+                <td>	Bishop Enrique San Pedro, Ozanam Center	</td>
+              </tr>
+              <tr>
+                <td>	Region 3	</td> 
+                <td>	Cameron	</td> 
+                <td>	1001 Pancho Maples	</td> 
+                <td>	La Feria Dome (Safe Room)	</td>
+              </tr>
+              <tr>
+                <td>	Region 3	</td> 
+                <td>	Cameron	</td> 
+                <td>	309 Railroad St	</td> 
+                <td>	Port Isabell Event and Cultural Center	</td>
+              </tr>
+              <tr>
+                <td>	Region 3	</td> 
+                <td>	Willacy	</td> 
+                <td>	10804 Bus. 77	</td> 
+                <td>	Willacy Community Safe Room	</td>
+              </tr>
+              <tr>
+                <td>	Region 3	</td> 
+                <td>	Hildago	</td> 
+                <td>	111 S. 15th St	</td> 
+                <td>	Catholic Charities of the Rio Grande Valley	</td>
+              </tr>
+              <tr>
+                <td>	Region 3	</td> 
+                <td>	Bee	</td> 
+                <td>	106 E. Cleveland	</td> 
+                <td>	1st United Methodist Church	</td>
+              </tr>
+              <tr>
+                <td>	Region 3	</td> 
+                <td>	Maverick	</td> 
+                <td>	2101 Epting Circle	</td> 
+                <td>	Cruz Munoz Gymnasium	</td>
+              </tr>
+              <tr>
+                <td>	Region 3	</td> 
+                <td>	Webb	</td> 
+                <td>	6700 Arena Blvd	</td> 
+                <td>	Sames Auto Arena	</td>
+              </tr>
+              <tr>
+                <td>	Region 3	</td> 
+                <td>	Val Verde	</td> 
+                <td>	1915 Veterans Blvd	</td> 
+                <td>	Del Rio Civic Center	</td>
+              </tr>
+              <tr>
+                <td>	Region 3	</td> 
+                <td>	Brooks	</td> 
+                <td>	100 Jersey Drive	</td> 
+                <td>	Fulfurrias High School 	</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <!-- Done, outliers: 76849 76837 76825 76856 76950 76859 76941 76903 76380 -->
+        <div id = "r5">
+          <table class = "tableStyle"> 
+            <tbody>
+              <tr>
+                <td>	Region 4	</td> 
+                <td>	Kimble	</td> 
+                <td>	202 S 8th	</td> 
+                <td>	First Baptist Church Gym - Office of Emergency Management	</td>
+              </tr>
+              <tr>
+                <td>	Region 4	</td> 
+                <td>	Ector	</td> 
+                <td>	810 East 11th Street	</td> 
+                <td>	Salvation Army	</td>
+              </tr>
+              <tr>
+                <td>	Region 4	</td> 
+                <td>	Midland	</td> 
+                <td>	1306 E Taylor Ave	</td> 
+                <td>	Salvation Army	</td>
+              </tr>
+              <tr>
+                <td>	Region 4	</td> 
+                <td>	Brewster	</td> 
+                <td>	102 S. 2ND Street	</td> 
+                <td>	Brewster County EOC	</td>
+              </tr>
+              <tr>
+                <td>	Region 4	</td> 
+                <td>	Midland	</td> 
+                <td>	3001 N. A St.	</td> 
+                <td>	True Lite Christian Fellowship	</td>
+              </tr>
+              <tr>
+                <td>	Region 4	</td> 
+                <td>	Concho	</td> 
+                <td>	101 Burleson St.	</td> 
+                <td>	First Baptist Church	</td>
+              </tr>
+              <tr>
+                <td>	Region 4	</td> 
+                <td>	McCulloch	</td> 
+                <td>	906 E 11th St	</td> 
+                <td>	Brady Salvation Army	</td>
+              </tr>
+              <tr>
+                <td>	Region 4	</td> 
+                <td>	Mason	</td> 
+                <td>	1024 McKinley Ave	</td> 
+                <td>	Eckert Civic Center	</td>
+              </tr>
+              <tr>
+                <td>	Region 4	</td> 
+                <td>	Sutton	</td> 
+                <td>	408 W 1st St	</td> 
+                <td>	Sonora Middle School	</td>
+              </tr>
+              <tr>
+                <td>	Region 4	</td> 
+                <td>	Menard	</td> 
+                <td>	1001 Ellis St	</td> 
+                <td>	Menard Vol Fire Station	</td>
+              </tr>
+              <tr>
+                <td>	Region 4	</td> 
+                <td>	Terrell	</td> 
+                <td>	105 East Hackberry	</td> 
+                <td>	Community Building	</td>
+              </tr>
+              <tr>
+                <td>	Region 4	</td> 
+                <td>	Brewster	</td> 
+                <td>	102 S. 2ND Street	</td> 
+                <td>	Brewster County EOC	</td>
+              </tr>
+              <tr>
+                <td>	Region 4	</td> 
+                <td>	Ector	</td> 
+                <td>	415 N Grandview	</td> 
+                <td>	Copper Rose	</td>
+              </tr>
+              <tr>
+                <td>	Region 4	</td> 
+                <td>	Ector	</td> 
+                <td>	7601 N Grandview	</td> 
+                <td>	St. Elizabeth Ann Seton Church	</td>
+              </tr>
+              <tr>
+                <td>	Region 4	</td> 
+                <td>	Gaines	</td> 
+                <td>	315 Main St	</td> 
+                <td>	Baptist Church Activity Center	</td>
+              </tr>
+              <tr>
+                <td>	Region 4	</td> 
+                <td>	Irion	</td> 
+                <td>	112 W. Duncan Ave	</td> 
+                <td>	Mertzon Community Center	</td>
+              </tr>
+              <tr>
+                <td>	Region 4	</td> 
+                <td>	Tom Green	</td> 
+                <td>	501 Rio Concho Dr	</td> 
+                <td>	McNease Convention Center	</td>
+              </tr>
+              <tr>
+                <td>	Region 4	</td> 
+                <td>	Presidio	</td> 
+                <td>	300 N Gonzales St	</td> 
+                <td>	Marfa High School	</td>
+              </tr>
+              <tr>
+                <td>	Region 4	</td> 
+                <td>	Jeff Davis	</td> 
+                <td>	202 Court Ave	</td> 
+                <td>	Fort Davis Fire Station	</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div id = "r6">
+          <table class = "tableStyle"> 
+            <tbody>
+              <tr>
+                    <td>Region</td>
+                    <td>County</td>
+                    <td>Address</td>
+                    <td>Name</td>
+              </tr>
+              <tr>
+                <td>	Region 5	</td> 
+                <td>	Baylor	</td> 
+                <td>	420 N. Washington	</td> 
+                <td>	First Baptist Church	</td>
+              </tr>
+              <tr>
+                <td>	Region 5	</td> 
+                <td>	Crosby	</td> 
+                <td>	801 Tilford ave	</td> 
+                <td>	Crosby County	</td>
+              </tr>
+              <tr>
+                <td>	Region 5	</td> 
+                <td>	Callahan	</td> 
+                <td>	1600 US-283	</td> 
+                <td>	Baird United Methodist Church	</td>
+              </tr>
+              <tr>
+                <td>	Region 5	</td> 
+                <td>	Dallam	</td> 
+                <td>	501 Denver Ave.	</td> 
+                <td>	Warming Station - Dallam County	</td>
+              </tr>
+              <tr>
+                <td>	Region 5	</td> 
+                <td>	Gray	</td> 
+                <td>	817 S. Cuyler	</td> 
+                <td>	Grace Baptist Church	</td>
+              </tr>
+              <tr>
+                <td>	Region 5	</td> 
+                <td>	Hartsford	</td> 
+                <td>	15 NW Ct St	</td> 
+                <td>	Warming Station - Hartsford County	</td>
+              </tr>
+              <tr>
+                <td>	Region 5	</td> 
+                <td>	Hemphill	</td> 
+                <td>	401 E Purcell Ave	</td> 
+                <td>	Hemphill County Sheriff's Office - Panhandle	</td>
+              </tr>
+              <tr>
+                <td>	Region 5	</td> 
+                <td>	Hockley	</td> 
+                <td>	1401 College Avenue	</td> 
+                <td>	South Plains College	</td>
+              </tr>
+              <tr>
+                <td>	Region 5	</td> 
+                <td>	Hockley	</td> 
+                <td>	301 E. Cragin st	</td> 
+                <td>	Community Building	</td>
+              </tr>
+              <tr>
+                <td>	Region 5	</td> 
+                <td>	Hockley	</td> 
+                <td>	400 Spade St	</td> 
+                <td>	Ropesville ISD Field House	</td>
+              </tr>
+              <tr>
+                <td>	Region 5	</td> 
+                <td>	Hockley	</td> 
+                <td>	222 Lincoln	</td> 
+                <td>	Senior Citizen Building	</td>
+              </tr>
+              <tr>
+                <td>	Region 5	</td> 
+                <td>	Hockley	</td> 
+                <td>	412 Lawrence	</td> 
+                <td>	Church of Christ	</td>
+              </tr>
+              <tr>
+                <td>	Region 5	</td> 
+                <td>	Montague	</td> 
+                <td>	206 W Evans St	</td> 
+                <td>	Saint Jo ISD cafeteria	</td>
+              </tr>
+              <tr>
+                <td>	Region 5	</td> 
+                <td>	Montague	</td> 
+                <td>	413 Pelham St	</td> 
+                <td>	Bowie Community Center	</td>
+              </tr>
+              <tr>
+                <td>	Region 5	</td> 
+                <td>	Ochiltree	</td> 
+                <td>	21 SE 2nd Ave	</td> 
+                <td>	Perryton Police Department	</td>
+              </tr>
+              <tr>
+                <td>	Region 5	</td> 
+                <td>	Parmer	</td> 
+                <td>	300 4th St	</td> 
+                <td>	Parmer County Warming Station	</td>
+              </tr>
+              <tr>
+                <td>	Region 5	</td> 
+                <td>	Potter	</td> 
+                <td>	400 S. Harrison	</td> 
+                <td>	Salvation Army	</td>
+              </tr>
+              <tr>
+                <td>	Region 5	</td> 
+                <td>	Potter	</td> 
+                <td>	200 S. Tyler	</td> 
+                <td>	Code Blue Warming Center	</td>
+              </tr>
+              <tr>
+                <td>	Region 5	</td> 
+                <td>	Potter	</td> 
+                <td>	600 N Tyler	</td> 
+                <td>	Faith City Mission	</td>
+              </tr>
+              <tr>
+                <td>	Region 5	</td> 
+                <td>	Sherman	</td> 
+                <td>	701 North 3rd Street	</td> 
+                <td>	Warming Station - Sherman County	</td>
+              </tr>
+              <tr>
+                <td>	Region 5	</td> 
+                <td>	Stephens	</td> 
+                <td>	210 East Dyer	</td> 
+                <td>	Stephens County Law Enforcement Center	</td>
+              </tr>
+              <tr>
+                <td>	Region 5	</td> 
+                <td>	Taylor	</td> 
+                <td>	1726 Butternut	</td> 
+                <td>	Salvation Army	</td>
+              </tr>
+              <tr>
+                <td>	Region 5	</td> 
+                <td>	Childress	</td> 
+                <td>	1005 Ave F NE	</td> 
+                <td>	Childress County	</td>
+              </tr>
+              <tr>
+                <td>	Region 5	</td> 
+                <td>	Hall	</td> 
+                <td>	721 W Robertson	</td> 
+                <td>	Hall County	</td>
+              </tr>
+              <tr>
+                <td>	Region 5	</td> 
+                <td>	Swisher	</td> 
+                <td>	119 South Maxwell	</td> 
+                <td>	Swisher County	</td>
+              </tr>
+              <tr>
+                <td>	Region 5	</td> 
+                <td>	Gray	</td> 
+                <td>	219 Gray St	</td> 
+                <td>	McLean Warming Station - United Methodist Church	</td>
+              </tr>
+              <tr>
+                <td>	Region 5	</td> 
+                <td>	Gray	</td> 
+                <td>	401 Railroad St	</td> 
+                <td>	McLean Warming Station - Trinity Church	</td>
+              </tr>
+              <tr>
+                <td>	Region 5	</td> 
+                <td>	Gray	</td> 
+                <td>	206 E 1st Street	</td> 
+                <td>	McLean Warming Station - One Way Church	</td>
+              </tr>
+              <tr>
+                <td>	Region 5	</td> 
+                <td>	Castro	</td> 
+                <td>	100 E Bedford St #113	</td> 
+                <td>	Warming Station - Castro County	</td>
+              </tr>
+              <tr>
+                <td>	Region 5	</td> 
+                <td>	Wichita	</td> 
+                <td>	1300 Travis ST	</td> 
+                <td>	Faith Mission	</td>
+              </tr>
+              <tr>
+                <td>	Region 5	</td> 
+                  <td>	Wichita	</td> 
+                  <td>	4301 Cedar Elm Ln	</td> 
+                  <td>	City Hope Church	</td>
+                </tr>
+              <tr>
+                <td>	Region 5	</td> 
+                <td>	Wichita	</td> 
+                <td>	735 Davy Drive	</td> 
+                <td>	Burkburnett Community Center	</td>
+              </tr>
+              <tr>
+                <td>	Region 5	</td> 
+                <td>	Lubbock	</td> 
+                <td>	1111 16th St	</td> 
+                <td>	Salvation Army	</td>
+              </tr>
+              <tr>
+                <td>	Region 5	</td> 
+                <td>	Lubbock	</td> 
+                <td>	1301 Ave A	</td> 
+                <td>	Grace Campus	</td>
+              </tr>
+              <tr>
+                <td>	Region 5	</td> 
+                <td>	Lubbock	</td> 
+                <td>	1918 13th ST	</td> 
+                <td>	Open Door	</td>
+              </tr>
+              <tr>
+                <td>	Region 5	</td> 
+                <td>	Oldham	</td> 
+                <td>	105 South Main Street	</td> 
+                <td>	Oldham County	</td>
+              </tr>
+              <tr>
+                <td>	Region 5	</td> 
+                <td>	Brown	</td> 
+                <td>	1101 Ave D	</td> 
+                <td>	Brown County Home Soultions	</td>
+              </tr>
+              <tr>
+                <td>	Region 5	</td> 
+                <td>	Childress	</td> 
+                <td>	1606 AVE I NW	</td> 
+                <td>	Calvary Baptist Church	</td>
+              </tr>
+              <tr>
+                <td>	Region 5	</td> 
+                <td>	Cochran	</td> 
+                <td>	100 N. Main	</td> 
+                <td>	Sheriff's Office	</td>
+              </tr>
+              <tr>
+                <td>	Region 5	</td> 
+                <td>	Coleman	</td> 
+                <td>	Corner of Hwy 206 & 5th ave	</td> 
+                <td>	The Bill Franklin Center	</td>
+              </tr>
+              <tr>
+                <td>	Region 5	</td> 
+                <td>	Gray	</td> 
+                <td>	2545 Perryton Pkwy	</td> 
+                <td>	Pampa Mall - Jason Bagwell	</td>
+              </tr>
+              <tr>
+                <td>	Region 5	</td> 
+                <td>	Gray	</td> 
+                <td>	407 E 1st St	</td> 
+                <td>	Groom Warming Station - Panhandle	</td>
+              </tr>
+              <tr>
+                <td>	Region 5	</td> 
+                <td>	Potter	</td> 
+                <td>	207 N. Tyler	</td> 
+                <td>	Amarillo Housing First	</td>
+              </tr>
+              <tr>
+                <td>	Region 5	</td> 
+                <td>	Taylor	</td> 
+                <td>	2625 S. 7th	</td> 
+                <td>	Rose Park Senior Center	</td>
+              </tr>
+              <tr>
+                <td>	Region 5	</td> 
+                <td>	Taylor 	</td> 
+                <td>	2850 TX-351	</td> 
+                <td>	Beltway Park Church North Campus	</td>
+              </tr>
+              <tr>
+                <td>	Region 5	</td> 
+                <td>	Terry	</td> 
+                <td>	215 E. Broadway	</td> 
+                <td>	Brownfield PD Contact EMC	</td>
+              </tr>
+              <tr>
+                <td>	Region 5	</td> 
+                <td>	Dickens	</td> 
+                <td>	210 Burlington Ave	</td> 
+                <td>	Spur SENIOR CITIZENS	</td>
+              </tr>
+              <tr>
+                <td>	Region 5	</td> 
+                <td>	Hardeman	</td> 
+                <td>	109 King Street	</td> 
+                <td>	Quanah City Hall	</td>
+              </tr>
+              <tr>
+                <td>	Region 5	</td> 
+                <td>	Young	</td> 
+                <td>	120 Barclay Blvd	</td> 
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div id = "r7">
+          <table class = "tableStyle"> 
+            <tbody>
+              <tr>
+                    <td>Region</td>
+                    <td>County</td>
+                    <td>Address</td>
+                    <td>Name</td>
+              </tr>
+              <tr>
+                <td>	Region 6	</td> 
+                <td>	McLennan	</td> 
+                <td>	300 Webster Avenue	</td> 
+                <td>	Salvation Army of Waco	</td>
+              </tr>
+              <tr>
+                <td>	Region 6	</td> 
+                <td>	Travis	</td> 
+                <td>	710 W Cesar Chavez	</td> 
+                <td>	Austin Central Library	</td>
+              </tr>
+              <tr>
+                <td>	Region 6	</td> 
+                <td>	Bell	</td> 
+                <td>	419 W Ave G	</td> 
+                <td>	Salvation Army of Bell County	</td>
+              </tr>
+              <tr>
+                <td>	Region 6	</td> 
+                <td>	Bell	</td> 
+                <td>	906 Trimmier Rd	</td> 
+                <td>	Skyline Baptist Church	</td>
+              </tr>
+              <tr>
+                <td>	Region 6	</td> 
+                <td>	Burnet	</td> 
+                <td>	1101 Bluebonnet Dr	</td> 
+                <td>	First United Methodist Church	</td>
+              </tr>
+              <tr>
+                <td>	Region 6	</td> 
+                <td>	Victoria	</td> 
+                <td>	1302 N Louis	</td> 
+                <td>	Salvation Army of Victoria	</td>
+              </tr>
+              <tr>
+                <td>	Region 6	</td> 
+                <td>	Victoria	</td> 
+                <td>	111 S Liberty	</td> 
+                <td>	Mid-Coast Family Services	</td>
+              </tr>
+              <tr>
+                <td>	Region 6	</td> 
+                <td>	Caldwell	</td> 
+                <td>	204 North Main St	</td> 
+                <td>	Calvary Chapel	</td>
+              </tr>
+              <tr>
+                <td>	Region 6	</td> 
+                <td>	Travis	</td> 
+                <td>	900 Barton Springs Rd	</td> 
+                <td>	Parmer Event Center	</td>
+              </tr>
+              <tr>
+                <td>	Region 6	</td> 
+                <td>	Milam	</td> 
+                <td>	2100 N Highway 77	</td> 
+                <td>	Cowboy Church	</td>
+              </tr>
+              <tr>
+                <td>	Region 6	</td> 
+                <td>	McLennan	</td> 
+                <td>	1226 Washington Ave	</td> 
+                <td>	MIssion Waco Meyer Center / My Brother's Keeper	</td>
+              </tr>
+              <tr>
+                <td>	Region 6	</td> 
+                <td>	Karnes	</td> 
+                <td>	201 N Esplanade	</td> 
+                <td>	First United Methodist Church	</td>
+              </tr>
+              <tr>
+                <td>	Region 6	</td> 
+                <td>	Kendall	</td> 
+                <td>	451 N Main	</td> 
+                <td>	Hill County Family Services	</td>
+              </tr>
+              <tr>
+                <td>	Region 6	</td> 
+                <td>	Gillespie	</td> 
+                <td>	1608 N Adams St	</td> 
+                <td>	Fredricksburg Elementary School	</td>
+              </tr>
+              <tr>
+                <td>	Region 6	</td> 
+                <td>	Guadalupe	</td> 
+                <td>	510 S Camp St	</td> 
+                <td>	St. James Catholic Church	</td>
+              </tr>
+              <tr>
+                <td>	Region 6	</td> 
+                <td>	Coryell	</td> 
+                <td>	1206 W Ave B	</td> 
+                <td>	Copperas Cove Warming Shelter	</td>
+              </tr>
+              <tr>
+                <td>	Region 6	</td> 
+                <td>	Falls	</td> 
+                <td>	678 Success Lane	</td> 
+                <td>	Middle School Gym	</td>
+              </tr>
+              <tr>
+                <td>	Region 6	</td> 
+                <td>	Hill	</td> 
+                <td>	1180 S. Waco St	</td> 
+                <td>	Hills County Fairgrounds	</td>
+              </tr>
+              <tr>
+                <td>	Region 6	</td> 
+                <td>	HIll	</td> 
+                <td>	102 N Colorado St	</td> 
+                <td>	City of Whitney Annex	</td>
+              </tr>
+              <tr>
+                <td>	Region 6	</td> 
+                <td>	Hill	</td> 
+                <td>	300 N Magnolia Ave	</td> 
+                <td>	Hubbard Civic Center	</td>
+              </tr>
+              <tr>
+                <td>	Region 6	</td> 
+                <td>	Hill	</td> 
+                <td>	1000 S Files St	</td> 
+                <td>	HILCO Civic & Event Center	</td>
+              </tr>
+              <tr>
+                <td>	Region 6	</td> 
+                <td>	Calhoun	</td> 
+                <td>	501 S Main St	</td> 
+                <td>	Seadrift Community Center	</td>
+              </tr>
+              <tr>
+                <td>	Region 6	</td> 
+                <td>	Bexar	</td> 
+                <td>	900 E Market St.	</td>
+                <td>	Henry B. Gonzalez	</td>
+              </tr>
+              <tr>
+                <td>	Region 6	</td> 
+                <td>	Bell	</td> 
+                <td>	4107 Westcliff Rd.	</td> 
+                <td>	Liberty Christian Center Gym	</td>
+              </tr>
+              <tr>
+                <td>	Region 6	</td> 
+                <td>	Bell	</td> 
+                <td>	101 W. Avenue A	</td> 
+                <td>	American Legion Hall	</td>
+              </tr>
+              <tr>
+                <td>	Region 6	</td> 
+                <td>	Bell	</td> 
+                <td>	7907 Prairie View Rd.	</td> 
+                <td>	North Belton Middle School	</td>
+              </tr>
+              <tr>
+                <td>	Region 6	</td> 
+                <td>	Bell	</td> 
+                <td>	1704 Sparta Road	</td> 
+                <td>	Belton Middle School	</td>
+              </tr>
+              <tr>
+                <td>	Region 6	</td> 
+                <td>	Bell	</td> 
+                <td>	307 Millers Crossing	</td> 
+                <td>	Recreation Center	</td>
+              </tr>
+              <tr>
+                <td>	Region 6	</td> 
+                <td>	Bell	</td> 
+                <td>	601 N. Main Street	</td> 
+                <td>	Civic Center	</td>
+              </tr>
+              <tr>
+                <td>	Region 6	</td> 
+                <td>	Bell	</td> 
+                <td>	217 N Stagecoach Road	</td> 
+                <td>	Church of Christ	</td>
+              </tr>
+              <tr>
+                <td>	Region 6	</td> 
+                <td>	Bell	</td> 
+                <td>	1018 S 7th St.	</td> 
+                <td>	St. Mary’s Catholic Church	</td>
+              </tr>
+              <tr>
+                <td>	Region 6	</td> 
+                <td>	Bell	</td> 
+                <td>	2807 Oakdale Dr.	</td> 
+                <td>	St. Luke’s Catholic Church	</td>
+              </tr>
+              <tr>
+                <td>	Region 6	</td> 
+                <td>	Bell	</td> 
+                <td>	8015 W Adams Ave.	</td> 
+                <td>	First Baptist Church	</td>
+              </tr>
+              <tr>
+                <td>	Region 6	</td> 
+                <td>	Bell	</td> 
+                <td>	1401 W. Central Ave.	</td> 
+                <td>	Immanuel Baptist Church	</td>
+              </tr>
+              <tr>
+                <td>	Region 6	</td> 
+                <td>	Bell	</td> 
+                <td>	650 Royal St	</td> 
+                <td>	United Methodist Church	</td>
+              </tr>
+              <tr>
+                <td>	Region 6	</td> 
+                <td>	Llano	</td> 
+                <td>	107 W Luce St., Llano, TX 78643	</td> 
+                <td>	First Baptist Church	</td>
+              </tr>
+              <tr>
+                <td>	Region 6	</td> 
+                <td>	Llano	</td> 
+                <td>	3435 Ranch Rd 1431 W, Kingsland, TX 78639	</td> 
+                <td>	First Baptist Church	</td>
+              </tr>
+              <tr>
+                <td>	Region 6	</td> 
+                <td>	Bell	</td> 
+                <td>	305 South 18th	</td> 
+                <td>	Victory Ministries	</td>
+              </tr>
+              <tr>
+                <td>	Region 6	</td> 
+                <td>	Coryell	</td> 
+                <td>	800 East Main St	</td> 
+                <td>	Coryell Co. Comm.	</td>
+              </tr>
+              <tr>
+                <td>	Region 6	</td> 
+                <td>	Travis	</td> 
+                <td>	1150 McNeil Rd	</td> 
+                <td>	The Austin Stone	</td>
+              </tr>
+              <tr>
+                <td>	Region 6	</td> 
+                <td>	Travis	</td> 
+                <td>	11300 Old San Antonio Road	</td> 
+                <td>	Point Communty Church	</td>
+              </tr>
+              <tr>
+                <td>	Region 6	</td> 
+                <td>	Travis	</td> 
+                <td>	12675 Research Blvd	</td> 
+                <td>	Mosaic Church	</td>
+              </tr>
+              <tr>
+                <td>	Region 6	</td> 
+                <td>	Travis	</td> 
+                <td>	14455 FM 1826	</td> 
+                <td>	Friendship Creekside	</td>
+              </tr>
+              <tr>
+                <td>	Region 6	</td> 
+                <td>	Travis	</td> 
+                <td>	12124 Ranch Road 620 N	</td> 
+                <td>	Hill Country Bible Church	</td>
+              </tr>
+              <tr>
+                <td>	Region 6	</td> 
+                <td>	Travis	</td> 
+                <td>	1903 University Ave	</td> 
+                <td>	University Ave Church of Christ	</td>
+              </tr>
+              <tr>
+                <td>	Region 6	</td> 
+                <td>	Travis	</td> 
+                <td>	1508 Ruth Ave.	</td> 
+                <td>	Hope Chapel	</td>
+              </tr>
+              <tr>
+                <td>	Region 6	</td> 
+                <td>	Travis	</td> 
+                <td>	5201 Ross Road	</td> 
+                <td>	Del Valle High School (Southeast)	</td>
+              </tr>
+              <tr>
+                <td>	Region 6	</td> 
+                <td>	Travis	</td> 
+                <td>	3308 Hampton Road	</td> 
+                <td>	Lee Elementary School - CENTRAL	</td>
+              </tr>
+              <tr>
+                <td>	Region 6	</td> 
+                <td>	Travis	</td> 
+                <td>	3700 N. Hills Dr	</td> 
+                <td>	Murchison Middle School - WEST	</td>
+              </tr>
+              <tr>
+                <td>	Region 6	</td> 
+                <td>	Travis	</td> 
+                <td>	4500 Menchaca Road	</td> 
+                <td>	Joslin Elementary School	</td>
+              </tr>
+              <tr>
+                <td>	Region 6	</td>
+                <td>	Falls	</td> 
+                <td>	204 Live Oak	</td> 
+                <td>	Marlin Gym	</td>
+              </tr>
+              <tr>
+                <td>	Region 6	</td> 
+                <td>	Hays	</td> 
+                <td>	28900 RR 12	</td> 
+                <td>	Dripping Springs United Methodist Church	</td>
+              </tr>
+              <tr>
+                <td>	Region 6	</td> 
+                <td>	Hays	</td> 
+                <td>	15951 Winters Mill Pkwy	</td> 
+                <td>	First Baptist Church of Wimberley	</td>
+              </tr>
+              <tr>
+                <td>	Region 6	</td> 
+                <td>	Kendall	</td> 
+                <td>	105 Parkway B	</td> 
+                <td>	The Graphix House	</td>
+              </tr>
+              <tr>
+                <td>	Region 6	</td> 
+                <td>	Kendall	</td> 
+                <td>	820 Adler St.	</td> 
+                <td>	YMCA Warming Center	</td>
+              </tr>
+              <tr>
+                <td>	Region 6	</td> 
+                <td>	Kerr	</td> 
+                <td>	3000 SH- 534 Loop	</td> 
+                <td>	Cavalry Temple	</td>
+              </tr>
+              <tr>
+                <td>	Region 6	</td> 
+                <td>	Kerr	</td> 
+                <td>	700 TX-39	</td> 
+                <td>	Ingram Tom Moore High School	</td>
+              </tr>
+              <tr>
+                <td>	Region 6	</td> 
+                <td>	Kerr	</td> 
+                <td>	201 Holdsworth Drive	</td> 
+                <td>	Salvation Army Kroc Center	</td>
+              </tr>
+              <tr>
+                <td>	Region 6	</td> 
+                <td>	Frio	</td> 
+                <td>	166 E Miller St	</td> 
+                <td>	Dilley Convection Center	</td>
+              </tr>
+              <tr>
+                <td>	Region 6	</td> 
+                <td>	Bosque	</td> 
+                <td>	266 FM Rd 2840	</td> 
+                <td>	Bosque County Sheriff's Office	</td>
+              </tr>
+              <tr>
+                <td>	Region 6	</td> 
+                <td>	Hays	</td> 
+                <td>	518 Guadalupe St	</td> 
+                <td>	Southside Community Center	</td>
+              </tr>
+              <tr>
+                <td>	Region 6	</td> 
+                <td>	Hays	</td> 
+                <td>	28900 RR 12	</td> 
+                <td>	Dripping Springs United Methodist Church	</td>
+              </tr>
+              <tr>
+                <td>	Region 6	</td> 
+                <td>	Hays	</td> 
+                <td>	15951 Winters Mill Pkwy	</td> 
+                <td>	First Baptist Church of Wimberley	</td>
+              </tr>
+              <tr>
+                <td>	Region 6	</td> 
+                <td>	Hays	</td> 
+                <td>	1310 Advance St	</td> 
+                <td>	Westover Baptist Church	</td>
+              </tr>
+              <tr>
+                <td>	Region 6	</td> 
+                <td>	Hays	</td> 
+                <td>	300 S CM Allen Parkway Ste. 100	</td> 
+                <td>	Salvation Army	</td>
+              </tr>
+              <tr>
+                <td>	Region 6	</td> 
+                <td>	Hays	</td> 
+                <td>	408 West Lockhart St	</td> 
+                <td>	Kyle United Methodist Church	</td>
+              </tr>
+
+
+            </tbody>
+          </table>
+        </div>
+
+      </div>
+
+      <br><br>
+      <button onclick="div2()">Need Help?</button>
+      <div id="div2" class = "divStyle">
+        <h2>Need Help?</h2>
+        <p><a target = "_blank" href = "https://docs.google.com/forms/d/1QMGSizuq75KUKaiT-JjoozHYkWQ43B0f08Agc2ZO5KM/viewform?edit_requested=true">Individual request assistance form</a> by <a target = "_blank" href = "https://twitter.com/XaviercMiller/status/1361774449096331270?s=20">@xaviercmiller</a></p>
+        <p><a  target = "_blank"href = "https://twitter.com/itsa_talia/status/1361800360365547520">Individual resource offers + general info </a> thread by @itsa_talia</p>
+        <p>	<a target = "_blank" href = "https://twitter.com/itsa_talia/status/1361800647855734793">Individual resource offer</a> - Willowbrook	</p>
+        <p>	<a target = "_blank" href = "https://twitter.com/itsa_talia/status/1361880817371332608?s=20">Individual resource offer</a>  (+ free dog food) - Wichita Falls	</p>
+        <p>	<a target = "_blank" href = "https://twitter.com/itsa_talia/status/1361775350980751369?s=20https://docs.google.com/document/d/1ohSzuVThgS_KtR57uenhK1AqMUniILPWiSRe14HV95s/edit">Individual resource offer</a>  - Spring	</p>
+        <p>	<a target = "_blank" href = "https://docs.google.com/document/d/1ohSzuVThgS_KtR57uenhK1AqMUniILPWiSRe14HV95s/edit">Hotels with availability AND power</a>  - <a target = "_blank" href = "https://docs.google.com/spreadsheets/d/1Rr04QPsKi5co16oSYxDF_i1SPSAP7cRyQQf2PJPqAFU/edit">Click here to submit more</a> 	</p>
+        <p>	<a target = "_blank" href = "https://twitter.com/cs_rescue">@cs_rescue</a>  - emergency responses with generators and heaters.	</p>
+        <p>	<a target = "_blank" href = "https://l.facebook.com/l.php?u=http%3A%2F%2Fodaidfw.org%2F%3Ffbclid%3DIwAR3dn6nmD0xPm5n_DB_N6blXOmxViVQpfk4w4WekpenP6_am-6tymLaOo0M&h=AT16z5U1f9kLc5t35Winz87ps3EXi33UHdTaF15bWg7iXoIYQe8V3KBTuGMQ2dMTyhPoh-FWgbp0Nre54UP8eYQ-GdEspBx2cjzZ8KvPs25z20YUQjfnbknrWJLV4QV0GnOwUIm9dKaG7NRvaxpq7Q1fEwhttp://www.borderregion.org">O.D. Access</a>  is a nonprofit syringe access and harm reduction program working to build power with people who use drugs in Fort Worth, Texas. Call or text (682)730.0715.	</p>
+        <p>	<a target = "_blank" href = "http://www.borderregion.org">Border Region Behavioral Health Center	</a> </p>
+        <p>	<a target = "_blank" href = "https://www.genesisshelter.org/donate/http://www.crowdsourcerescue.org/freeze">Genesis Women's Center</a>  - Safety, shelter and support for women and children who have experienced domestic violence.	</p>
+        <p>	<a target = "_blank" href = "http://www.crowdsourcerescue.org/freeze">Transportation and shelter</a> </p>
+        <p>	<a target = "_blank" href = "https://content.govdelivery.com/accounts/USVA/bulletins/2c1f47c/">Texas Veterans Support</a> </p>
+      </div>
+
+      <br><br>
+      <button onclick="div3()">Want to Help?</button>
+      <div id="div3" class = "divStyle">
+        <h2>Want to help?</h2>
+        <p><a target = "_blank" href = "https://docs.google.com/forms/d/1FkllX_Q8sK07gFqxL3day6liT3ALZNqB9YNtTxLVqUk/viewform?gxids=7628&edit_requested=true">Transportation Volunteer Form</a></p>
+        <p><a target = "_blank" href = "https://www.dmagazine.com/style-beauty-wellness/2021/02/how-to-help-homeless-dallasites-weather-the-storm-this-weekend/">Dallas Houseless</a></p>
+        <p><a target = "_blank" href = "https://www.austinecho.org/pit-2021-alternatives/">Cold Weather Support Opportunity</a></p>
+      </div>
+
+      <br><br>
+      <button onclick="div4()">Orgs. Looking for Volunteers</button>
+      <div id="div4" class = "divStyle">
+        <h2>Orgs. Looking for Volunteers</h2>
+        <p><a target = "_blank" href = "http://giving.journeyhome.org/give/180277/">@presbyteriannightshelter</a></p>
+        <p>Houseless Shelter - Recently Lost Power (Urgent)<p>
+          <p><a target = "_blank" href = "https://www.facebook.com/groups/471530777159307">PVAS Partner Group</a> Need blankets, requesting <a target = "_blank" href = "https://interland3.donorperfect.net/weblink/weblink.aspx?name=E126904&id=78">donations </a></p>
+          <p><a target = "_blank" href = "https://twitter.com/primate_refuge"> Primate Sanctuary</a> (URGENT HELP NEEDED)</p> 
+      </div>
+
+      <br><br>
+      <button onclick="div5()">Staying Warm</button>
+      <div id="div5" class = "divStyle">
+        <h2>Staying Warm</h2>
+
+        <p><a target = "_blank" href = "https://threadreaderapp.com/thread/1361695831779401729.html">Personal warmth thread</a> by @mixbecca</p>
+        <p><a target = "_blank" href = "https://threadreaderapp.com/thread/1361409501132374027.html">Personal warmth thread</a> by @cherrygryffon</p>
+        <p><a target = "_blank" href = "https://docs.google.com/spreadsheets/d/1HlmBu-6_xdVLf7NgIbMVHNUWzHM0PL99VGvoAKaZn98/edit?pli=1#gid=1635961684">Staying warm resources doc</a> by NewsNotNoise/<a href = "https://twitter.com/JessicaYellin">@jessicayellin</a></p>
+        <p><a target = "_blank" href = "https://threadreaderapp.com/thread/1361866231121203201.html">Resource guide</a> by @mfoltx</p>
+        <p><a target = "_blank" href = "https://threadreaderapp.com/thread/1361810148688338945.html">Terra cotta heater tutorial</a> by @serpentemblem</p>
+        <p><a target = "_blank" href = "https://twitter.com/crimethinc/status/1361902055556808704">How to make a rocket stove guide</a> by @crimethinc</p>
+      </div>
+
+      <br><br>
+      <button onclick="div6()">Safety Tips for Disabled Folx</button>
+      <div id="div6" class = "divStyle">
+        <h2>Safety Tips for Disabled Folx</h2>
+        <p><a target = "_blank" href = "https://threadreaderapp.com/thread/1361329803979325451.html">Navigating snow thread</a> by @imani_barbarin</p>
+      </div>
+
+      <br><br>
+      <button onclick="div7()">Resources for Unhoused</button>
+      <div id="div7" class = "divStyle">
+        <h2>Resources for Unhoused</h2>
+        <p>Check <a target = "_blank" href = "https://twitter.com/HocHtx">@HocHtx</a> for updates and to contact for assistance.</p>
+        <p>AustinMutualAid has been working to get hotels for unhoused people. <a target = "_blank" href = "https://www.instagram.com/austinmutualaid/">Instagram</a> - <a target = "_blank" href = "https://linktr.ee/austinmutualaid">Linktree</a> - <a target = "_blank" href = "https://docs.google.com/forms/d/e/1FAIpQLSeifyEcVCXBXM8k7lmA3qAi2BLfKaMAXfrjkIP_flEPJx5xDQ/viewform?usp=send_form">Request form</a></p>
+      </div>
+
+      <br><br>
+      <button onclick="div8()">Emergency Student Aid</button>
+      <div id="div8" class = "divStyle">
+        <h2>Emergency Student Aid</h2>
+
+        <p><a target = "_blank" href = "https://thedailytexan.com/2021/02/16/heres-what-you-need-to-know-about-power-water-and-shelter-at-and-around-ut-amid-severe">UT Austin Student Emergency Housing</a> - <a href = "mailto:studentemergency@austin.utexas.edu">studentemergency@austin.utexas.edu</a> 512-471-5017</p>
+        <p><a target = "_blank" href ="https://t.co/ivcTnGun41?amp=1">Warm Oatmeal Delivery Sign-Up (Morning of 02/16)</a></p>
+        <p><a target = "_blank" href ="https://twitter.com/UTAustin">@UTAustin</a> <a target = "_blank" href ="https://twitter.com/UTexasMoody">@UTexasMoody</a> <a target = "_blank" href ="https://twitter.com/UTJSchool">@UTJSchool</a> students, campus buildings have heat and power. Mask up and grab your gear: </p>
+          <li>SanJac Hall, Texas Union for warming</li>
+          <li>Food service at J2 & Kins until 2:30; again at 4:30</li>
+          <li>SanJac front desk for housing assistance</li>
+          <li><a target ="_blank" href = "https://twitter.com/txst">@txst</a></li>
+          <li>#TXST is deploying shuttles to the Lantana Hall bus stop in San Marcos beginning Feb. 16 at 6 pm. Students living on or off-campus can access the shuttles to warm up. Shuttles will be available overnight, but they ask students to not plan on spending all night on the busses.</li>
+          <li><a target = "_blank" href = "https://twitter.com/psencikk/status/1361788720324640770">Professors collecting and providing meals for students</a></li>
+
+      </div>
+
+      <br><br>
+      <button onclick="div9()">Donate</button>
+      <div id="div9" class = "divStyle">
+        <h2>Donate</h2>
+        <p><a target = "_blank" href = "https://twitter.com/MaryBadThings/status/1361698511868334081">Thread of places to donate (general)</a> by @marybadthings</p>
+        <p><a target = "_blank" href = "https://twitter.com/ProudCommulist/status/1361859181213409280?s=20">Individual asks for funds in replies</a></p>
+        <p>North Texas Rural Resilience - Venmo: @ntrr4yall</p>
+        <p><a target = "_blank" href = "https://twitter.com/mutualaidhou?lang=enhttps://secure.everyaction.com/mZkiW31t8kWovwKbrW8AAQ2?emci=5add7bc5-ab70-eb11-9889-00155d43c992&emdi=0570518c-b070-eb11-9889-00155d43c992&ceid=186137">Mutual Aid Houston</a> - Twitter/Venmo: @mutualaidhou</p>
+        <p><a target = "_blank" href = "https://secure.everyaction.com/mZkiW31t8kWovwKbrW8AAQ2?emci=5add7bc5-ab70-eb11-9889-00155d43c992&emdi=0570518c-b070-eb11-9889-00155d43c992&ceid=186137">South Texas - LUPE</a></p>
+        <p><a target = "_blank" href = "http://para.mi_gente">San Antonio</a> - Instagram/Venmo - @pmgmutualaid</p>
+        <p><a target = "_blank" href = "https://www.gofundme.com/f/kick-the-cold-austin-mutal-aid?utm_campaign=m_pd+share-sheet&utm_medium=copy_link_all&utm_source=customer">Austin Mutual Aid: Kick The Cold</a> (GoFundMe) - venmo @austinmutualaidhotels and @austinmutualaid</p>
+        <p><a target = "_blank" href = "https://aaul.org/">Austin Area Urban League</a></p>
+        <p><a target = "_blank" href = "https://twitter.com/TxJailProject">@txjailproject</a> is contributing funds to commissaries of prisoners across the state so they can buy food.</p>
+      </div>
+
+      <br><br>
+      <button onclick="div10()">General</button>
+      <div id="div10" class = "divStyle">
+        <h2>General</h2>
+        <p><a target = "_blank" href = "https://twitter.com/TxJailProject">@txjailproject</a> is taking calls from jails across the state to report inside conditions.</p>
+        <p><a target = "_blank" href = "https://www.readysouthtexasapp.com/">South Texas: Ready South Texas App</a></p>
+        <p><a target = "_blank" href ="https://docs.google.com/document/d/15R2QTAXJAEzqEgUkL4CxNI6vYn-caoSGuXvwavrpeTY/edit#heading=h.y1hvxro5z7do">Texas Winter Storm Resources</a> - compiled by <a target = "_blank" href = "https://twitter.com/bluesquadsocial?lang=en">@BlueSquadSocial</a></p>
+        <p><a target = "_blank" href = "https://docs.google.com/spreadsheets/d/1Ljgp9ukAv12G9LofoUDlfXKcL0-HnB66CxR1JwdwCGI/htmlview">Animal Shelters</a></p>
+      </div>
+
+      <br><br>
+      <button onclick="div11()">Mutual Aid</button>
+      <div id="div11" class = "divStyle">
+        <h2>Mutual Aid</h2>
+        <p>@feedtheppldfw - Venmo/Cashapp - FeedThePeopleDallas</p>
+        <p>Lucha Dallas: Venmo - @luchadallas</p>
+        <p>@dallas_sunrise - Venmo/Cashapp - SunriseDallas</p>
+        <p>@DTXStopsEvictns - Cashapp: $dallasstopsevictions</p>
+        <p>@FunkyTownFridge - Venmo: FunkyTownFridge</p>
+        <p>@ldocommunityfridge on FB and Instagram</p>
+        <p>Canidae Collective</p>
+        <p>@CooperationdTX - Cashappp - $CooperationDenton</p>
+        <p>@DFWmutualaid - Venmo/Cashapp - dfwmutualaid</p>
+        <p>Elm Fork JBGC: CashApp - $efjbgc</p>
+        <p>SRA DFW CashApp - $sradfw</p>
+        <p>Dallas Harm Reduction Aid - Venmo - @dallashra</p>
+        <p>Houston TX @mutualaidhou</p>
+        <p>Austin @austinmutualaidhotels</p>
+      </div>
+      <br><br><br>
+      
+      <p id = "txt2">Please send additional resources to <a href= "https://www.instagram.com/alexisdenisew/">@alexisdenisew</a>.</p>
+      <br>
+      <br><br>
+
+
+
+
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

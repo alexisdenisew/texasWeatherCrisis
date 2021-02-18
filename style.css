@@ -1,0 +1,117 @@
+#conts{
+  text-align: center;
+}
+
+body {
+  background-color: #fefae0;
+  margin: 5%;
+}
+
+@media screen and (min-width: 601px) {
+  h1{
+  font-size: 500%;
+  }
+  button{
+    padding: 15px 32px;
+    border-radius: 12px;
+    font-size: 20px;
+  }
+  #subButton{
+    padding: 10px 27px;
+    font-size: 15px;
+  }
+  h2{
+    font-size: 200%;
+  }
+  p, #zipList{
+    font-size: 120%;
+  }
+  #txt1{
+    margin-left: 3%;
+    margin-right: 3%;
+  }
+}
+@media screen and (max-width: 601px) {
+  h1{
+    font-size: 250%;
+  }
+  button{
+    padding: 15px 32px;
+    border-radius: 12px;
+    font-size: 15px;
+  }
+  #subButton{
+    padding: 10px 27px;
+    font-size: 10px;
+  }
+  h2{
+    font-size: 150%;
+  }
+  #txt1{
+    margin-left: 3%;
+    margin-right: 3%;
+    font-size: 80%;
+  }
+  #txt2{
+    margin-left: 3%;
+    margin-right: 3%;
+    font-size: 50%;
+  }
+}
+
+button{
+  background-color:#dda15e;
+  color: #bc6c25;
+  font-family: 'Fjalla One', sans-serif;
+  border: none;
+}
+
+h1{
+  color: #bc6c25;
+  font-family: 'Fjalla One', sans-serif;
+}
+
+h2{
+  color: #283618;
+  font-family: 'Fjalla One', sans-serif;
+}
+
+p, #zipList, #zipCode, li{
+  font-family: 'Fjalla One', sans-serif; 
+  margin-left: 5%;
+    margin-right: 5%;
+}
+
+#zipCode{
+  padding: 10px 27px;
+}
+
+a{
+  color: #283618;
+}
+
+a:active{
+  color: #283618;
+}
+
+.tableStyle{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#r1, #r2, #r3, #r4, #r5, #r6, #r7{
+  margin-left: auto;
+  margin-right: auto;
+  display: none;
+}
+
+
+.divStyle{
+  width: 100%;
+  padding: 50px 0;
+  text-align: center;
+  background-color: #606c38;
+  margin-top: 20px;
+  display: none;
+  border-radius: 12px;
+}
