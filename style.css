@@ -57,10 +57,9 @@ body {
     margin-right: 3%;
     font-size: 50%;
   }
-  td, tr{
+  td, tr, divConts{
     font-family: 'Fjalla One', sans-serif;
-    margin-left: 5%;
-    margin-right: 5%;
+    font-size: 40%;
   }
 }
 
