@@ -57,6 +57,9 @@ body {
     margin-right: 3%;
     font-size: 50%;
   }
+  td, tr{
+    font-family: 'Fjalla One', sans-serif;
+  }
 }
 
 button{
